@@ -1,7 +1,6 @@
 <?php
-include 'koneksi.php';
-
-$queryResult=$connect->query("SELECT * FROM tabel_barang");
+include 'book/connection.php';
+$queryResult=$connect->query("SELECT * FROM audio");
 
 $result=array();
 while($rowData=$queryResult->fetch_assoc()){
