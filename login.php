@@ -1,5 +1,5 @@
 <?php
- $db = mysqli_connect('localhost','root','root','skoolen');
+ $db = mysqli_connect('localhost','wstifci1_courseapp','Polije1234','wstifci1_courseapp');
  $username = $_POST['username'];
  $password = $_POST['password'];
  $sql = "SELECT * FROM pengguna WHERE username = '".$username."' AND password = '".$password."'";

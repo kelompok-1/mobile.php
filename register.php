@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect('localhost','root','root','skoolen');
+$db = mysqli_connect('localhost','wstifci1_courseapp','Polije1234','wstifci1_courseapp');
 if(!$db)
 {
 	echo "Database connection failed";
